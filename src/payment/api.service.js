@@ -29,7 +29,7 @@ export const innitiateTransaction = async () => {
         email:"norbertmbafrank@gmail.com",
         amount:100 * koboDenom,
         currency:"NGN",
-        callback_url:"http://localhost:3000/payment/status"
+        callback_url:process.env.REACT_APP_FRONTEND_URL+"/payment/status"
     }
     return await axios(options);
 }
