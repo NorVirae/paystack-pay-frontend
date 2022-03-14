@@ -336,4 +336,12 @@
   .admin__customers{
     grid-template-columns: 1fr;
   }
+
+  .admin__sidebar{
+    display: none;
+  }
+
+  .admin{
+    grid-template-columns: 1fr;
+  }
 }
