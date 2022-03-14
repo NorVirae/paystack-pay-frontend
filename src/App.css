@@ -324,4 +324,16 @@
   .product__card {
     grid-template-columns: 1fr;
   }
+
+  .form-control{
+    width: 100%;
+  }
+
+  .admin__transactions{
+    grid-template-columns: 1fr;
+  }
+
+  .admin__customers{
+    grid-template-columns: 1fr;
+  }
 }
